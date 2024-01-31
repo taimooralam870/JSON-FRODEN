@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=La+Belle+Aurore&display=swap');
+
+        @font-face {
+            font-family: 'gilory';
+            src: url('./gilory/Gilroy-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'gilory-bold';
+            src: url('./gilory/Gilroy-Bold.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'gilory-extra-bold';
+            src: url('./gilory/Gilroy-ExtraBold.ttf') format('truetype');
+        }
+    </style>
+</head>
+
+<body class="" style="font-family:gilory;">
+    <section class="w-full h-full">
+        <div class="max-w-[1280px] mx-auto px-4">
+            <div class="flex items-center justify-between py-4">
+                <div class="text-[#FA2D2D] cursor-pointer lg:text-[52px] text-[32px] font-[400]"
+                    style="font-family:La Belle Aurore;">
+                    Jason Foden</div>
+                <div class=" hidden lg:block">
+                    <div class="flex flex-row gap-8 text-[20px]" style="font-family:gilory;">
+                        <div class="cursor-pointer">Why Photographer</div>
+                        <div class="cursor-pointer">What You’ll Learn</div>
+                        <div class="cursor-pointer">Pricing</div>
+                    </div>
+                </div>
+
+                <div class="flex gap-2 cursor-pointer">
+                    <div> <img class="object-cover" src="./ic_baseline-email.png"></div>
+                    <div class="text-[20px]"> support@jasonfoden.com</div>
+                </div>
+            </div>
+            <div>
+            </div>
+        </div>
+    </section>
+    <section class="pt-6">
+        <div class="" style="background-image: url('./Group\ 76.png');">
+            <div
+                class="max-w-[1280px] px-4 flex flex-col  justify-between gap-4 lg:flex-row items-center justify-center mx-auto">
+                <div class="flex flex-col lg:gap-[30px] gap-[20px] w-full">
+                    <div class="lg:max-w-[718px] lg:text-[72px] text-[32px] lg:leading-[80px] uppercase font-bold"
+                        style="font-family: font-family: gilory-extra-bold;;">
+                        <div>Become a Professional <span class="" style="background: linear-gradient(to left, rgb(246, 8, 8) 25%, rgb(173, 53, 53) 20%, rgb(154, 28, 28) 25%, rgb(151, 20, 20) 30%); -webkit-background-clip: text;
+                            color: transparent;">Photographer</span>
+                        </div>
+                        <div><img class="mt-[-20px]" src="./Mask group (1).png"></div>
+                    </div>
+                    <div class="lg:w-[580px] text-[24px] font-[400] leading-[40px]">Lorem ipsum dolor sit amet,
+                        consectetur
+                        adipiscing elit. Purus viverra egestas euismod at dui condimentum eget aliquam.</div>
+                    <button
+                        class="rounded-[5px] w-[335px] bg-[#FA2D2D] text-center text-[28px] text-white font-[500] py-4">Learn
+                        more</button>
+                </div>
+                <div>
+                    <img class="hidden lg:block" src="./pexels-hassan-ouajbir-1306247_clipped_rev_1 1 (1).png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="bg-[#F8F8F8]">
+            <div class="max-w-[1280px] mx-auto  py-8 px-4 ">
+                <div class=" flex lg:flex-row flex-col gap-2 items-center justify-between">
+                    <div class="lg:w-[50%] w-full">
+                        <h1 class="font-bold lg:text-[42px] text-[30px]">GET MY FREE E-BOOK!</h1>
+                    </div>
+                    <div class="flex gap-4 lg:w-[50%] w-full">
+                        <div
+                            class="text-[22px] w-[50%] cursor-pointer text-[#454545] bg-[#EBEBEB] rounded-[5px]  px-4 text-center py-3">
+                            <a href="">Email</a>
+                        </div>
+                        <div class="text-[22px] w-[50%] cursor-pointer text-white font-bold bg-[#FA2D2D] rounded-[5px] px-4 text-center py-3 "
+                            style="font-family: gilory-bold;">
+                            <a href="#">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-[20px]  py-2">Lorem ipsum dolor sit amet, consectetur</p>
+            </div>
+        </div>
+    </section>
+    <section class="max-w-[1280px] px-4 mx-auto">
+        <div class="lg:pt-[99px] pt-[50px]">
+            <div class="text-center text-[20px] text-[#FA2D2D]" style="font-family: gilory-bold; letter-spacing: 2px;">
+                LEARN AT YOUR OWN PACE
+            </div>
+            <div class="lg:text-[62px] text-[32px] lg:leading-[80px] text-center py-2"
+                style="font-family: gilory-bold; letter-spacing: 2px;">START YOUR JOURNEY</div>
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 py-[60px]">
+                <div class="max-w-[368px] mx-auto pt-6 px-6 flex flex-col gap-4 shadow-lg rounded-[10px]">
+                    <img class="w-full cursor-pointer" src="./Rectangle 61 (1).png">
+                    <div class="uppercase text-[#FA2D2D] text-center" style="font-family:gilory-bold;">STEP ONE</div>
+                    <div class="text-center text-[42px] leading-[80px] uppercase" style="font-family:gilory-bold ;">BOOK
+                    </div>
+                    <div class="text-[20px] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                    <div class="flex items-center mb-[-25px] justify-center">
+                        <img src="./Group 23.png">
+                    </div>
+                </div>
+                <div class="max-w-[368px] mx-auto pt-6 px-6 flex flex-col gap-4 shadow-lg rounded-[10px]">
+                    <img class="w-full cursor-pointer" src="./Rectangle 61 (1).png">
+                    <div class="uppercase text-[#FA2D2D] text-center" style="font-family:gilory-bold;">STEP ONE</div>
+                    <div class="text-center text-[42px] leading-[80px] uppercase" style="font-family:gilory-bold ;">BOOK
+                    </div>
+                    <div class="text-[20px] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                    <div class="flex items-center mb-[-25px] justify-center">
+                        <img src="./Group 23.png">
+                    </div>
+                </div>
+                <div class="max-w-[368px] mx-auto pt-6 px-6 flex flex-col gap-4 shadow-lg rounded-[10px]">
+                    <img class="w-full cursor-pointer" src="./Rectangle 61 (1).png">
+                    <div class="uppercase text-[#FA2D2D] text-center" style="font-family:gilory-bold;">STEP ONE</div>
+                    <div class="text-center text-[42px] leading-[80px] uppercase" style="font-family:gilory-bold ;">BOOK
+                    </div>
+                    <div class="text-[20px] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                    <div class="flex items-center mb-[-25px] justify-center">
+                        <img src="./Group 23.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="flex lg:flex-row flex-col max-w-[1280px] mx-auto py-8 px-4 gap-8 lg:gap-2">
+            <div class="lg:w-[50%] flex flex-col gap-4">
+                <div class="text-[#FA2D2D] text-[20px]" style="font-family: gilory-bold;"> LEARN AT YOUR OWN PACE </div>
+                <div class="lg:text-[62px] text-[32px] lg:leading-[80px]" style="font-family: gilory-bold;"> MASTER THE
+                    ART OF PHOTOGRAPHY </div>
+                <div class="text-[20px] lg:w-[498px]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus
+                    viverra egestas euismod at dui condimentum eget aliquam. </div>
+            </div>
+            <div class="lg:w-[50%]">
+                <img class="cursor-pointer" src="./MacBook Pro 21 (1).png">
+            </div>
+        </div>
+        <div class="py-8">
+            <div
+                class="flex lg:flex-row flex-col items-center gap-8 max-w-[1034px] mx-auto shadow-2xl bg-white py-8 px-8 border border-4 border-white">
+                <div class="lg:w-[60%]">
+                    <div class="lg:text-[42px] text-[32px] lg:leading-[80px]" style="font-family: gilory-bold;">READY TO GO PRO?</div>
+                    <div class="text-[20px] lg:w-[491px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus
+                        viverra egestas euismod at deler on it.</div>
+                </div>
+                <div class="lg:w-[40%] flex flex-col ">
+                    <div class="bg-[#FA2D2D] text-[28px] w-[300px] rounded-[5px] cursor-pointer leading-[50px]  text-white py-2 px-2 text-center"
+                        style="font-family: gilory-bold;">
+                        <a href="">Learn more</a>
+                    </div>
+                    <div class="text-[20px] leading-[40px] text-center">
+                        100% Free
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="px-4">
+            <div class="pt-[60px] pb-8">
+                <div class="text-[#FA2D2D] text-center text-[20px]">NEXT STEPS</div>
+                <div class="lg:text-[62px] text-[32px] lg:leading-[80px] text-center" style="font-family: gilory-bold;">EXPERIENCE IT ALL
+                </div>
+                <div class="text-[24px] leading-[40px] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit.</div>
+            </div>
+            <div class="pt-[160px]">
+                <div class="bg-[#F8F8F8] pb-[80px]">
+                    <div class="grid lg:grid-cols-2 grid-cols-1 max-w-[1100px] mx-auto gap-[200px]">
+                        <div class="max-w-[506px] mx-auto px-6 flex flex-col mt-[-90px] shadow-2xl rounded-[10px]">
+                            <img class="w-full cursor-pointer mt-[-30px]" src="./Group 41.png">
+                            <div class="text-center lg:text-[42px] text-[32px] lg:leading-[80px] pt-[60px] uppercase"
+                                style="font-family:gilory-bold ;">PRODUCT ONE</div>
+                            <div class="text-[20px] leading-[40px] text-center pb-[60px]">Paragraph lorem ipsum dolor
+                                sit amet, consectetur adipiscing elit. Purus viverra egestas euismod at deler on it now.
+                            </div>
+                            <div class="flex items-center mb-[-25px] justify-center">
+                                <img src="./Group 23.png">
+                            </div>
+                        </div>
+                        <div class="max-w-[506px] mx-auto px-6 flex flex-col mt-[-90px] shadow-2xl rounded-[10px]">
+                            <img class="w-full cursor-pointer mt-[-30px]" src="./Group 41.png">
+                            <div class="text-center lg:text-[42px] text-[32px] lg:leading-[80px] pt-[60px] uppercase"
+                                style="font-family:gilory-bold ;">PRODUCT ONE</div>
+                            <div class="text-[20px] leading-[40px] text-center pb-[60px]">Paragraph lorem ipsum dolor
+                                sit amet, consectetur adipiscing elit. Purus viverra egestas euismod at deler on it now.
+                            </div>
+                            <div class="flex items-center mb-[-25px] justify-center">
+                                <img src="./Group 23.png">
+                            </div>
+                        </div>
+                        <div class="max-w-[506px] mx-auto px-6 flex flex-col mt-[-90px] shadow-2xl rounded-[10px]">
+                            <img class="w-full cursor-pointer mt-[-30px]" src="./Group 41.png">
+                            <div class="text-center lg:text-[42px] text-[32px] lg:leading-[80px] pt-[60px] uppercase"
+                                style="font-family:gilory-bold ;">PRODUCT ONE</div>
+                            <div class="text-[20px] leading-[40px] text-center pb-[60px]">Paragraph lorem ipsum dolor
+                                sit amet, consectetur adipiscing elit. Purus viverra egestas euismod at deler on it now.
+                            </div>
+                            <div class="flex items-center mb-[-25px] justify-center">
+                                <img src="./Group 23.png">
+                            </div>
+                        </div>
+                        <div class="max-w-[506px] mx-auto px-6 flex flex-col mt-[-90px] shadow-2xl rounded-[10px]">
+                            <img class="w-full cursor-pointer mt-[-30px]" src="./Group 41.png">
+                            <div class="text-center lg:text-[42px] text-[32px] lg:leading-[80px] pt-[60px] uppercase"
+                                style="font-family:gilory-bold ;">PRODUCT ONE</div>
+                            <div class="text-[20px] leading-[40px] text-center pb-[60px]">Paragraph lorem ipsum dolor
+                                sit amet, consectetur adipiscing elit. Purus viverra egestas euismod at deler on it now.
+                            </div>
+                            <div class="flex items-center mb-[-25px] justify-center">
+                                <img src="./Group 23.png">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="px-4">
+            <div class="pt-[60px] pb-8">
+                <div class="text-[#FA2D2D] text-center text-[20px] uppercase" style="letter-spacing: 2px; font-family: gilory-bold;">join the movement</div>
+                <div class="lg:text-[62px] text-[32px] lg:leading-[80px] text-center" style="font-family: gilory-bold; letter-spacing: 2px;">WORLDWIDE COMMUNITY
+                </div>
+                <div class="text-[24px] leading-[40px] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit.</div>
+            </div>
+            <div class="relative flex justify-center  lg:max-w-[1280px] px-4  mx-auto">
+                <div class="relative flex justify-center">
+                    <img class="lg:max-w-[1478px] mx-auto" src="./cheerful-diverse-friends-with-arms-around 1 (1).png">
+
+                    <div
+                        class="absolute flex flex-col lg:flex-row lg:bottom-[-150px] bottom-[-190px] items-center lg:gap-8 gap-2 lg:w-[1034px] mt-[-80px] shadow-2xl bg-white lg:py-8 py-2 px-8 border border-4 border-white">
+                        <div class="lg:w-[60%]">
+                            <div class="lg:text-[42px] md:text-[30px] text-[20px] lg:leading-[80px]" style="font-family: gilory-bold;">READY TO GO PRO?
+                            </div>
+                            <div class="lg:text-[20px] lg:w-[491px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Purus viverra egestas euismod at deler on it.</div>
+                        </div>
+                        <div class="lg:w-[40%] flex flex-col ">
+                            <div class="bg-[#FA2D2D] text-[28px]  w-[300px] mx-auto rounded-[5px] cursor-pointer lg:leading-[50px]  text-white py-2  text-center"
+                                style="font-family: gilory-bold;">
+                                <a href="">Learn more</a>
+                            </div>
+                            <div class="text-[20px] leading-[40px] text-center">
+                                100% Free
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="" style="background-image: url('./Group 77.png');">
+        <div class="px-4">
+            <div class="lg:pt-[200px] pt-[250px] pb-8" >
+                <div class="text-[#FA2D2D] text-center text-[20px]" style="font-family: gilory-bold; letter-spacing: 2px;">SEE THE LATEST</div>
+                <div class="lg:text-[62px] text-[32px] lg:leading-[80px] text-center" style="font-family: gilory-bold; letter-spacing: 2px;">READ OUR BLOG
+            </div>
+            <div class="max-w-[1050px] mx-auto grid grid-cols-1 lg:grid-cols-2">
+                <div class="max-w-[495px] mx-auto py-6 px-[33px] flex flex-col shadow-2xl gap-4 rounded-[10px]">
+                    <img class="w-full cursor-pointer" src="./Rectangle 52 (1).png">
+                    <div class="uppercase text-[#FA2D2D] text-[16px] " style="font-family:gilory-bold; letter-spacing: 2px;">AUGUST 17TH - JASON F.</div>
+                    <div class=" text-[32px] leading-[40px]" style="font-family:gilory-bold ;">The best photography settings for DSLR cameras
+                    </div>
+                    <div class="text-[18px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu morbi nisi consequat potenti porttitor sed.</div>
+                </div>
+                <div class="max-w-[495px] mx-auto py-6 px-[33px] flex flex-col shadow-2xl gap-4 rounded-[10px]">
+                    <img class="w-full cursor-pointer" src="./Rectangle 52 (1).png">
+                    <div class="uppercase text-[#FA2D2D] text-[16px] " style="font-family:gilory-bold; letter-spacing: 2px;">AUGUST 17TH - JASON F.</div>
+                    <div class=" text-[32px] leading-[40px]" style="font-family:gilory-bold ;">The best photography settings for DSLR cameras
+                    </div>
+                    <div class="text-[18px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu morbi nisi consequat potenti porttitor sed.</div>
+                </div>
+            </div>
+    </section>
+    <section class="lg:pt-[112px] pt-[60px]" style="background-image: url('./Group\ 79.png');">
+        <div class="">
+            <div>
+                <a class="pb-[138px]" href="#">
+                    <div class="bg-[#FA2D2D] text-white py-4 text-center text-[22px] rounded-[5px] max-w-[300px] mx-auto " style="font-family: gilory-bold;">Read more blog posts</div>
+                </a>
+                <div class="pt-[80px] lg:pt-[138px]">
+                    <div class="text-[#FA2D2D] text-center text-[20px]" style="font-family: gilory-bold; letter-spacing: 2px;">SEE THE LATEST</div>
+                    <div class="lg:text-[62px] lg:leading-[80px] text-[32px] pt-[22px] pb-[30px] text-center" style="font-family: gilory-bold; ">FOLLOW OUR SOCIALS
+                </div>
+                <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-[63px] gap-[90px] pt-[30px] pb-[60px] max-w-[1280px] px-4 mx-auto">
+                    <div class="max-w-[368px] mx-auto px-6 flex flex-col bg-white shadow-2xl rounded-[10px]">
+                        <img class="w-full cursor-pointer max-w-[230px] mt-[-60px] mx-auto" src="./5 (2).png">
+                        <div class="uppercase text-[#FA2D2D] text-center" style="font-family:gilory-bold;">STEP ONE</div>
+                        <div class="text-center lg:text-[42px] text-[32px] lg:leading-[80px] uppercase"
+                            style="font-family:gilory-bold ;">OUR VLOG</div>
+                        <div class="text-[20px] leading-[40px] text-center pb-[20px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        </div>
+                        <div class="flex items-center mb-[-25px] justify-center">
+                            <img src="./Group 23.png">
+                        </div>
+                    </div>
+                    <div class="max-w-[368px] mx-auto px-6 flex flex-col bg-white  shadow-2xl rounded-[10px]">
+                        <img class="w-full cursor-pointer max-w-[230px] mt-[-60px] mx-auto" src="./5 (2).png">
+                        <div class="uppercase text-[#FA2D2D] text-center" style="font-family:gilory-bold;">STEP ONE</div>
+                        <div class="text-center lg:text-[42px] text-[32px] lg:leading-[80px] uppercase"
+                            style="font-family:gilory-bold ;">OUR VLOG</div>
+                        <div class="text-[20px] leading-[40px] text-center pb-[20px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        </div>
+                        <div class="flex items-center mb-[-25px] justify-center">
+                            <img src="./Group 23.png">
+                        </div>
+                    </div>
+                    <div class="max-w-[368px] mx-auto px-6 flex flex-col bg-white  shadow-2xl rounded-[10px]">
+                        <img class="w-full cursor-pointer max-w-[230px] mt-[-60px] mx-auto" src="./5 (2).png">
+                        <div class="uppercase text-[#FA2D2D] text-center" style="font-family:gilory-bold;">STEP ONE</div>
+                        <div class="text-center lg:text-[42px] text-[32px] lg:leading-[80px] uppercase"
+                            style="font-family:gilory-bold ;">OUR VLOG</div>
+                        <div class="text-[20px] leading-[40px] text-center pb-[20px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        </div>
+                        <div class="flex items-center mb-[-25px] justify-center">
+                            <img src="./Group 23.png">
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </section>
+    <section class="footer bg-[#F8F8F8] lg:py-[120px] py-[80px]">
+        <div class="max-w-[1280px] flex lg:flex-row flex-col lg:gap-0 gap-4 items-center justify-center mx-auto px-4">
+                <div class="text-[#FA2D2D] cursor-pointer w-[35%] text-center lg:text-[52px] text-[32px] font-[400]"
+                    style="font-family:La Belle Aurore;">
+                    Jason Foden
+                </div>
+            <div class="grid lg:grid-cols-4  w-[65%] lg:gap-2 gap-4">
+                <div class="text-[20px] py-4 flex flex-col items-center gap-2">
+                    <div class="cursor-pointer font-[700] pb-6 " style="letter-spacing: 6px; font-family: gilory-bold;">ABOUT</div>
+                    <div class="cursor-pointer"> About Jason</div>
+                    <div class="cursor-pointer">Community</div>
+                    <div class="cursor-pointer"> Media</div>
+                </div>
+                <div class="text-[20px] py-4 flex flex-col items-center gap-2">
+                    <div class="cursor-pointer font-[700] pb-6" style="letter-spacing: 6px; font-family: gilory-bold;">ABOUT</div>
+                    <div class="cursor-pointer"> About Jason</div>
+                    <div class="cursor-pointer">Community</div>
+                    <div class="cursor-pointer"> Media</div>
+                </div>
+                <div class="text-[20px] py-4 flex flex-col items-center gap-2">
+                    <div class="cursor-pointer font-[700] pb-6" style="letter-spacing: 6px; font-family: gilory-bold;">ABOUT</div>
+                    <div class="cursor-pointer"> About Jason</div>
+                    <div class="cursor-pointer">Community</div>
+                    <div class="cursor-pointer"> Media</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
